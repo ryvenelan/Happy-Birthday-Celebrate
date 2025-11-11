@@ -1,11 +1,21 @@
 "use client"
 
+import { useEffect } from "react"
+import { runFireworks } from "@/lib/confetti"
+
 interface BirthdayCakeProps {
     name: string
 }
 
 export default function BirthdayCake({ name }: BirthdayCakeProps) {
     const showYuiSticker = name.toLowerCase() === "7frrr"
+
+    useEffect(() => {
+        // إذا كان الاسم هو 7frrr، شغل الكونفيتي
+        if (name.toLowerCase() === "7frrr") {
+            runFireworks()
+        }
+    }, [name])
 
     return (
         <div className="relative w-56 h-80 md:w-64 md:h-96">
