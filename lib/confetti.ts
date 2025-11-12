@@ -1,7 +1,7 @@
 import confetti from 'canvas-confetti';
 
 export const runFireworks = (): void => {
-    const duration = 5 * 1000;
+    const duration = 90 * 1000; // Changed from 5 to 90 seconds
     const animationEnd = Date.now() + duration;
     const defaults: confetti.Options = {
         startVelocity: 30,

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6945b7c-ccb9-4a6e-8de8-1f45b7f6078c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Celebration.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/confetti.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/VideoBackground.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/special-bg.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/birthday-cake.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/birthday-cake.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/birthday-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/birthday-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/confetti.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/confetti.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,16 +54,26 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AFfares/WebstormProjects/next.js/public/videos&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\AFfares\\WebstormProjects\\next.js\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AFfares\WebstormProjects\next.js\public\videos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AFfares\WebstormProjects\next.js\public\videos" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="localhost:3000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
       <method v="2" />
@@ -99,7 +110,9 @@
       <updated>1762802274532</updated>
       <workItem from="1762802275665" duration="4190000" />
       <workItem from="1762806857713" duration="778000" />
-      <workItem from="1762875014672" duration="1362000" />
+      <workItem from="1762875014672" duration="2014000" />
+      <workItem from="1762942673325" duration="12048000" />
+      <workItem from="1762969575762" duration="1589000" />
     </task>
     <servers />
   </component>

@@ -11,9 +11,28 @@ export default function Page() {
         setName(submittedName)
     }
 
+    const showSpecialBackground = name && name.toLowerCase() === "7frrr"
+
     return (
-        <main className="min-h-screen bg-background">
-            {!name ? <NameInput onSubmit={handleNameSubmit} /> : <BirthdayCard name={name} />}
+        <main className="min-h-screen">
+            {showSpecialBackground && (
+                <div className="fixed inset-0 z-0">
+                    <video
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="w-full h-full object-cover"
+                    >
+                        <source src="https://assets.mixkit.co/videos/preview/mixkit-balloons-flying-over-a-garden-4885-large.mp4" type="video/mp4" />
+                    </video>
+                    <div className="absolute inset-0 bg-black/40"></div>
+                </div>
+            )}
+
+            <div className="relative z-10">
+                {!name ? <NameInput onSubmit={handleNameSubmit} /> : <BirthdayCard name={name} />}
+            </div>
         </main>
     )
 }

@@ -11,7 +11,6 @@ export default function BirthdayCake({ name }: BirthdayCakeProps) {
     const showYuiSticker = name.toLowerCase() === "7frrr"
 
     useEffect(() => {
-        // إذا كان الاسم هو 7frrr، شغل الكونفيتي
         if (name.toLowerCase() === "7frrr") {
             runFireworks()
         }
